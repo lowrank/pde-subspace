@@ -64,5 +64,7 @@ fprintf('tau=%f, average error=%e\n', tau, err / H);
 int_err(t) = err/H;
 end
 
+% plot: 
+% semilogy(tau_, int_err, '-o', 'linewidth', 1.25); xlabel('\tau');ylabel('relative interpolation error')
 
 
